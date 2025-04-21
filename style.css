@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
 }
@@ -13,8 +12,34 @@ body {
   padding: 20px;
 }
 
-header.hero {
+.site-header {
   background: #2e3b4e;
+  padding: 10px 0;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: #405372;
   color: white;
   padding: 60px 0;
   text-align: center;
@@ -34,6 +59,17 @@ section {
 ul {
   list-style: square;
   padding-left: 20px;
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 5px;
 }
 
 footer {
