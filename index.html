@@ -3,23 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Company Name</title>
+  <title>Your Construction Company</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
+  <!-- Header with logo and navigation -->
+  <header class="site-header">
+    <div class="container header-flex">
+      <img src="logo.png" alt="Company Logo" class="logo">
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#services">Our Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section id="home" class="hero">
     <div class="container">
       <h1>Your Construction Company</h1>
       <p>Reliable. Efficient. Built to Last.</p>
     </div>
-  </header>
-
-  <section class="about container">
-    <h2>About Us</h2>
-    <p>We are a trusted construction company based in [Your Location], specializing in residential, commercial, and infrastructure projects. With years of experience and a skilled team, we bring your vision to life with quality and safety at the forefront.</p>
   </section>
 
-  <section class="services container">
+  <!-- Services -->
+  <section id="services" class="container">
     <h2>Our Services</h2>
     <ul>
       <li>General Construction</li>
@@ -30,19 +40,26 @@
     </ul>
   </section>
 
-  <section class="projects container">
-    <h2>Past Projects</h2>
-    <p>From homes to high-rise offices, our portfolio showcases our commitment to excellence.</p>
-    <!-- You can add images or links here -->
+  <!-- Gallery -->
+  <section id="gallery" class="container">
+    <h2>Gallery</h2>
+    <p>Take a look at some of our completed projects:</p>
+    <div class="gallery">
+      <img src="project1.jpg" alt="Project 1">
+      <img src="project2.jpg" alt="Project 2">
+      <img src="project3.jpg" alt="Project 3">
+    </div>
   </section>
 
-  <section class="contact container">
+  <!-- Contact -->
+  <section id="contact" class="container">
     <h2>Contact Us</h2>
-    <p>Email: contact@yourcompany.com</p>
-    <p>Phone: +60 12-345 6789</p>
-    <p>Address: [Your Company Address]</p>
+    <p>Email: admin@seventysolution.com</p>
+    <p>Phone: +60 12-620 2470</p>
+    <p>Address: Lot 510 Batu 22 Kanchong Darat 42700 Banting Selangor</p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Your Construction Company. All rights reserved.</p>
   </footer>
