@@ -23,10 +23,8 @@ body {
   align-items: center;
 }
 
-@media (max-width: 600px){
 .logo {
   height: 120px;
-}
 }
 
 .nav a {
